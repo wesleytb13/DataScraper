@@ -1,4 +1,4 @@
-fileInput = 'C:/Users/wes.barrett/Downloads/test_data.csv'
+fileInput = 'C:/test_data.csv'
 myFile = open(fileInput, 'r')
 
 newDict = {}
