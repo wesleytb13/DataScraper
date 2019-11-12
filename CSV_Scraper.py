@@ -7,7 +7,7 @@ x = 0
 i = 0
 for line in myFile:
     values = line.split(',')
-    userName = values[0]
+    userName = values[2].title()
     if 'MB' in values[6]:
         print("Small data usage")
     else:
